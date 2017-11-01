@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D42DD731FAA6D9A00C97572 /* buddybuild_release_notes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = buddybuild_release_notes.txt; sourceTree = "<group>"; };
 		3D9687CB1FAA3AB500D2FF9D /* RomanNumeralCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9687CD1FAA3AB500D2FF9D /* RomanNumeralCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralCalculatorTests.swift; sourceTree = "<group>"; };
 		3D9687CF1FAA3AB500D2FF9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,6 +98,7 @@
 		835AEC821D80DD7F0046555C = {
 			isa = PBXGroup;
 			children = (
+				3D42DD731FAA6D9A00C97572 /* buddybuild_release_notes.txt */,
 				835AEC8D1D80DD800046555C /* RomanNumeralCalculator */,
 				3D9687CC1FAA3AB500D2FF9D /* RomanNumeralCalculatorTests */,
 				3D9687DA1FAA3ACE00D2FF9D /* RomanNumeralCalculatorUITests */,
