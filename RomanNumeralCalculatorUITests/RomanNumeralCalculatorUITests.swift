@@ -2,8 +2,8 @@
 //  RomanNumeralCalculatorUITests.swift
 //  RomanNumeralCalculatorUITests
 //
-//  Created by Jarrod Parkes on 11/29/16.
-//  Copyright © 2016 buddybuild. All rights reserved.
+//  Created by Daniel Gilbert on 11/1/17.
+//  Copyright © 2017 buddybuild. All rights reserved.
 //
 
 import XCTest
@@ -21,16 +21,45 @@ class RomanNumeralCalculatorUITests: XCTestCase {
         XCUIApplication().launch()
 
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        XCUIDevice.shared.orientation = .portrait
     }
     
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
+        
+        let app = XCUIApplication()
+        app.buttons["Clear"].tap()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testAddOnePlusOne() {
+        let app = XCUIApplication()
+        let iButton = app.buttons["I"]
+        let calculatedLabel = app.staticTexts["calculated_value"]
+        
+        // Tap 'I'
+        iButton.tap()
+        XCTAssertEqual(calculatedLabel.label, "I")
+        // Tap '+'
+        app.buttons["+"].tap()
+        // Tap 'I'
+        iButton.tap()
+        XCTAssertEqual(calculatedLabel.label, "II")
     }
     
+    func testAddOnePlusFive() {
+        let app = XCUIApplication()
+        let iButton = app.buttons["I"]
+        let vButton = app.buttons["V"]
+        let calculatedLabel = app.staticTexts["calculated_value"]
+        
+        // Tap 'I'
+        iButton.tap()
+        XCTAssertEqual(calculatedLabel.label, "I")
+        // Tap '+'
+        app.buttons["+"].tap()
+        // Tap 'I'
+        vButton.tap()
+        XCTAssertEqual(calculatedLabel.label, "VI")
+    }
 }

@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES"
       codeCoverageEnabled = "YES">
       <Testables>
@@ -33,7 +34,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A955D29E1DEDDD3700018872"
+               BlueprintIdentifier = "3D9687CA1FAA3AB500D2FF9D"
                BuildableName = "RomanNumeralCalculatorTests.xctest"
                BlueprintName = "RomanNumeralCalculatorTests"
                ReferencedContainer = "container:RomanNumeralCalculator.xcodeproj">
@@ -43,7 +44,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A955D2AC1DEDDE6100018872"
+               BlueprintIdentifier = "3D9687D81FAA3ACE00D2FF9D"
                BuildableName = "RomanNumeralCalculatorUITests.xctest"
                BlueprintName = "RomanNumeralCalculatorUITests"
                ReferencedContainer = "container:RomanNumeralCalculator.xcodeproj">
@@ -66,6 +67,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
