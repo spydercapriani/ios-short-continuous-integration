@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		607317032682F74BCAB4276B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1BF654C733A53FE6CE8FA7 /* QuartzCore.framework */; };
+		75C8EDA8BB292D43F3C28F4B /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DD40B0261364EB47179DDB6 /* BuddyBuildSDK.framework */; };
 		835AEC8F1D80DD800046555C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AEC8E1D80DD800046555C /* AppDelegate.swift */; };
 		835AEC911D80DD800046555C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AEC901D80DD800046555C /* ViewController.swift */; };
 		835AEC941D80DD800046555C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835AEC921D80DD800046555C /* Main.storyboard */; };
 		835AEC961D80DD800046555C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835AEC951D80DD800046555C /* Assets.xcassets */; };
 		835AECBD1D80ED8F0046555C /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AECBC1D80ED8F0046555C /* RomanNumeral.swift */; };
+		A0F41551D3966C6EDA21C339 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CA1F92ABAB9064C4A53A69A /* CoreText.framework */; };
 		A91340121DE008F2005ED9CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A91340101DE008F2005ED9CA /* LaunchScreen.xib */; };
 		A955D2A21DEDDD3700018872 /* RomanNumeralCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A955D2A11DEDDD3700018872 /* RomanNumeralCalculatorTests.swift */; };
 		A955D2B01DEDDE6100018872 /* RomanNumeralCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A955D2AF1DEDDE6100018872 /* RomanNumeralCalculatorUITests.swift */; };
+		AD4A3DDAC31D6A1ECE549EC2 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532650425B4AC1E6CFADAAFD /* AssetsLibrary.framework */; };
+		ADD6A858CD770B2DCF1D6C8F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F522D3187FA59545C95BA7 /* CoreMedia.framework */; };
+		B378FBFE1E77764D5F260CF1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B43C9E49B7B41E9775874D7 /* SystemConfiguration.framework */; };
+		DE852E8A99A7BA5AAFF5FD36 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696F96F2FB65645A9ECD25B0 /* AVFoundation.framework */; };
+		F3246170B3686D40496D76B1 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E943755B2B1552B9275C2AB1 /* CoreVideo.framework */; };
+		FCA9F97D10E6B07CDB3D62B4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4D084D40EEBB137123014A /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E4D084D40EEBB137123014A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		16F522D3187FA59545C95BA7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2DD40B0261364EB47179DDB6 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuddyBuildSDK.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		3CA1F92ABAB9064C4A53A69A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		4363810D0A596A1E71042693 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		532650425B4AC1E6CFADAAFD /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		696F96F2FB65645A9ECD25B0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		835AEC8B1D80DD800046555C /* RomanNumeralCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanNumeralCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		835AEC8E1D80DD800046555C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		835AEC901D80DD800046555C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +58,7 @@
 		835AEC951D80DD800046555C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		835AEC9A1D80DD800046555C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		835AECBC1D80ED8F0046555C /* RomanNumeral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeral.swift; sourceTree = "<group>"; };
+		9B43C9E49B7B41E9775874D7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A91340111DE008F2005ED9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A955D29F1DEDDD3700018872 /* RomanNumeralCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A955D2A11DEDDD3700018872 /* RomanNumeralCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralCalculatorTests.swift; sourceTree = "<group>"; };
@@ -49,6 +66,8 @@
 		A955D2AD1DEDDE6100018872 /* RomanNumeralCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A955D2AF1DEDDE6100018872 /* RomanNumeralCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralCalculatorUITests.swift; sourceTree = "<group>"; };
 		A955D2B11DEDDE6100018872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC1BF654C733A53FE6CE8FA7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E943755B2B1552B9275C2AB1 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75C8EDA8BB292D43F3C28F4B /* BuddyBuildSDK.framework in Frameworks */,
+				AD4A3DDAC31D6A1ECE549EC2 /* AssetsLibrary.framework in Frameworks */,
+				A0F41551D3966C6EDA21C339 /* CoreText.framework in Frameworks */,
+				FCA9F97D10E6B07CDB3D62B4 /* CoreTelephony.framework in Frameworks */,
+				B378FBFE1E77764D5F260CF1 /* SystemConfiguration.framework in Frameworks */,
+				607317032682F74BCAB4276B /* QuartzCore.framework in Frameworks */,
+				DE852E8A99A7BA5AAFF5FD36 /* AVFoundation.framework in Frameworks */,
+				ADD6A858CD770B2DCF1D6C8F /* CoreMedia.framework in Frameworks */,
+				F3246170B3686D40496D76B1 /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +111,8 @@
 				A955D2A01DEDDD3700018872 /* RomanNumeralCalculatorTests */,
 				A955D2AE1DEDDE6100018872 /* RomanNumeralCalculatorUITests */,
 				835AEC8C1D80DD800046555C /* Products */,
+				FEBA3538BAFC6116F33FACF4 /* Frameworks */,
+				4363810D0A596A1E71042693 /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +156,22 @@
 				A955D2B11DEDDE6100018872 /* Info.plist */,
 			);
 			path = RomanNumeralCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		FEBA3538BAFC6116F33FACF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DD40B0261364EB47179DDB6 /* BuddyBuildSDK.framework */,
+				532650425B4AC1E6CFADAAFD /* AssetsLibrary.framework */,
+				3CA1F92ABAB9064C4A53A69A /* CoreText.framework */,
+				0E4D084D40EEBB137123014A /* CoreTelephony.framework */,
+				9B43C9E49B7B41E9775874D7 /* SystemConfiguration.framework */,
+				CC1BF654C733A53FE6CE8FA7 /* QuartzCore.framework */,
+				696F96F2FB65645A9ECD25B0 /* AVFoundation.framework */,
+				16F522D3187FA59545C95BA7 /* CoreMedia.framework */,
+				E943755B2B1552B9275C2AB1 /* CoreVideo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -429,6 +475,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -450,6 +497,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
